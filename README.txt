@@ -1,0 +1,1 @@
+This is a barebones example of a Flex Mobile project running ann away3D scene in a view navigator application. Full details are here http://artpluscode.com/blog/?p=128

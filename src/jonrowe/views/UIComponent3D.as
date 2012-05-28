@@ -58,7 +58,8 @@ package jonrowe.views
 		 */		
 		private function create3DView():void{
 			
-			canvas3D = new PanoVideoNav("http://www.concept-immoglobal.com/wp-content/uploads/OVP-basic/paramotor.mp4", 2048, 1024); // this line modified by Louis Dorard (louis@dorard.me)
+			canvas3D = new PanoVideoNav("http://www.concept-immoglobal.com/wp-content/uploads/OVP-basic/paramotor.mp4", 2048, 1024);
+			// canvas3D = new OriginalCanvas3D();
 			addChild (canvas3D);
 			canvas3D.addEventListener(Canvas3D.SCENE_READY, onSceneReady);
 			
